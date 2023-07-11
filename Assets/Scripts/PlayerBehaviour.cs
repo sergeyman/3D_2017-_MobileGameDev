@@ -34,7 +34,7 @@ public class PlayerBehaviour : MonoBehaviour
     /// </summary>
     void Update()
     {
-        // Check if we're moving to the sideBuilding Your Game Chapter 1
+        // Check if we're moving to the sideBuilding Your Game
 
         var horizontalSpeed = Input.GetAxis("Horizontal") * dodgeSpeed;
         // Apply our auto-moving and movement forces
